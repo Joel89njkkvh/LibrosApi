@@ -17,7 +17,7 @@ const BookScreen = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [selectedBook, setSelectedBook] = useState(null); // 👈 nuevo estado
+  const [selectedBook, setSelectedBook] = useState(null); 
 
   const fetchBooks = async () => {
     setLoading(true);
